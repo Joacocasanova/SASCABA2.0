@@ -1,0 +1,60 @@
+.banner {
+	padding: 1rem;
+	background-size: cover;
+	background-position: center;
+    min-height: 300px;
+}
+
+.banner h1 {
+	font-family: normal normal normal 25px/1.4em "Raleway", sans-serif;
+	font-weight: 1000;
+    color: black;
+    font-size: 6rem;
+    text-align: center;
+    letter-spacing: 10px
+   }
+.break {
+    word-wrap: break-word;
+}
+
+
+
+@media screen and (max-width: 800px) {
+  div.banner h1 {
+    font-size: 35px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  div.banner h1 {
+    font-size: 60px;
+  }
+
+
+.ventajas {
+    background-size: cover;
+    background-position: center;
+    padding: 6rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.ventajas li {
+    font-size: 2rem;
+    font-color: black;
+    align-items: center;
+    text-align: left;
+}
+
+.ventajas h6 {
+    font: normal normal normal 25px/1.4em "Raleway", sans-serif;
+    color: #555555;
+    font-weight: 900;
+    letter-spacing: 5px;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+   }
+

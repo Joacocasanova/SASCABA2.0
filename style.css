@@ -1,0 +1,64 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;0,800;0,900;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Buenard&display=swap');
+/* -- Components design -- */
+@import url("../SASCABA2.0/Components/banner.css");
+@import url("../SASCABA2.0/Components/button.css");
+@import url("../SASCABA2.0/Components/navbar.css");
+@import url("../SASCABA2.0/Components/card.css");
+
+
+p {
+	font-family: "Buenard", sans-serif;
+	font-size: 22px;
+	letter-spacing:1px;
+}
+
+
+
+body {
+background-color: #f1f9f9;
+}
+
+body h2 {
+ font: normal normal normal 37px/1.4em "Raleway", sans-serif;
+ color: #555555;
+ font-weight: 1000;
+ letter-spacing: 5px;
+ text-align: center;
+ }
+
+h3 {
+	font-style: italic;
+}
+
+.container {
+	text-align: center;
+	padding: 20px;
+}
+
+#footer {
+	width: 100%;
+	background-color: #bbe1fa;
+}
+
+.anchor{
+  display: block;
+  height: 150px; /*same height as header*/
+  margin-top: -150px; /*same height as header*/
+  visibility: hidden;
+}
+
+
+.img-fluid {
+	border-radius: 100%;
+}
+
+.blog {
+color: #2576b3;
+font-weight: bold;
+}
+
+.container-fluid {
+	background-color:#DBDBDB;
+}

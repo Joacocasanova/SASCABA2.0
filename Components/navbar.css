@@ -1,0 +1,15 @@
+
+.nav-link {
+display: inline-block;
+padding: 0 10px;
+font: normal normal normal 13px/1.4em raleway,sans-serif;
+color: #00305B;
+transition: color 0.4s ease 0s;
+text-align: left;
+border-left: 1px solid #9EDAE145
+}
+
+
+.navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
+background-color: #72CAD3;
+}
